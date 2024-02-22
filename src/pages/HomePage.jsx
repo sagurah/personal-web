@@ -130,7 +130,7 @@ const HomePage = () => {
                 {
                   experiences && experiences.map((exp, i) => {
                     return (
-                      <div className="group hover:bg-slate-600 transition-all ease-in-out mb-3 rounded-lg px-1 py-4" key={i}>
+                      <div className="group transition-all ease-in-out mb-3 rounded-lg px-1 py-4" key={i}>
                         <h5 className=" text-slate-100 text-md font-bold">
                           {exp.title}
                           <span class="invisible group-hover:visible transition ease-in-out duration-500 text-lg font-bold text-slate-300">  &rarr;</span>
