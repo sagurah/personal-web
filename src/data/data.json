@@ -1,0 +1,47 @@
+{
+  "experiences": [
+    {
+      "id": 1,
+      "title": "Dicoding Academy Batch 4",
+      "company": "Dicoding",
+      "location": "Bandung, Indonesia",
+      "date": "Feb 2023 - Jul 2023",
+      "description": "Frontend and Backend Web Development Cohort.",
+      "techstack": ["Node.js", "Vue", "Javascript"],
+      "role": "Fullstack"
+    },
+    {
+      "id": 2,
+      "title": "Research Assistant",
+      "company": "Badan Riset dan Inovasi Nasional",
+      "location": "Bogor, Indonesia",
+      "date": "Sept 2023 - Present",
+      "description": "Responsible for developing a Decision Support System.",
+      "techstack": ["Vue", "MongoDB", "Node.js"],
+      "role": "Fullstack"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "PaneninJualin",
+      "description": "Capstone Project for MSIB Dicoding Cycle 4.",
+      "techstack": ["Vue", "Vuetify", "Firebase"],
+      "link": "https://panenin-jualin.vercel.app"
+    },
+    {
+      "id": 2,
+      "title": "Grand Atma Hotel",
+      "description": "Final Project for Software Development Project.",
+      "techstack": ["Vue", "Vuetify", "Flutter", "Node.js"],
+      "link": "https://grandatma-sagurah.vercel.app"
+    },
+    {
+      "id": 3,
+      "title": "Atma Retail",
+      "description": "A book retail website project to rent and return books.",
+      "techstack": ["React", "NextUI", "Tailwind"],
+      "link": "https://atma-retail.vercel.app"
+    }
+  ]
+}
