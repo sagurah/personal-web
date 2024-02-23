@@ -109,16 +109,17 @@ const HomePage = () => {
                           <span class="invisible group-hover:visible transition ease-in-out duration-500 text-lg font-bold text-slate-300">  &rarr;</span>
                         </h5>
                         <p className="text-slate-300 text-sm mb-2">{proj.description}</p>
-                        <div className="flex gap-5 justify-between ">
+                        <div className="flex gap-5 justify-between">
                           <div className="flex flex-row">
                             {
                               proj.techstack.map((exp, i) => {
                                 return (
-                                  <div className="bg-slate-800 text-slate-100 text-sm rounded-md mr-1 p-2">{exp}</div>
+                                  <div className="bg-slate-800 text-slate-100 text-sm font-semibold rounded-md mr-1 px-1 py-2">{exp}</div>
                                 )
                               })
                             }
                           </div>
+                          <div className="bg-emerald-800 text-slate-100 text-sm rounded-md p-2 font-bold">{proj.role}</div>
                         </div>
                       </div>
                     )
@@ -143,12 +144,11 @@ const HomePage = () => {
                             {
                               exp.techstack.map((tech, i) => {
                                 return (
-                                  <div className="bg-slate-800 text-slate-100 text-sm rounded-md mr-1 p-2">{tech}</div>
+                                  <div className="bg-slate-800 text-slate-100 text-sm font-semibold rounded-md mr-1 px-1 py-2">{tech}</div>
                                 )
                               })
                             }
                           </div>
-                          <div className="bg-emerald-800 text-slate-100 text-sm rounded-md p-2 font-bold">{exp.role}</div>
                         </div>
                       </div>
                     )
